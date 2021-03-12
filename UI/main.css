@@ -1,3 +1,37 @@
-h1{
-    background-color: brown;
+body{
+    background-color: #FFA921;
+    margin: 0;
+    padding: 40px;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 91vh;
+}
+
+.main-content-left{
+    position: relative;
+    text-align: left;
+    padding: 50px;
+}
+
+.main-content-left p:last-of-type{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.main-content-right{
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.nav-list{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
 }
