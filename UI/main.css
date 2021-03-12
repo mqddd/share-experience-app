@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
     background-color: #FFA921;
     margin: 0;
     padding: 40px;
@@ -35,3 +36,36 @@ body{
     justify-content: space-between;
     
 }
+=======
+    background-color: lightskyblue;
+    margin: 0;
+    max-height: fit-content;
+    height: 100vh;
+}
+
+.header{
+    background-color: brown;
+    margin-bottom: 0;
+}
+
+.main{
+    background-color: grey;
+    margin-top: 0;
+    max-height: fit-content;
+}
+
+.footer{
+    background-color: indigo;
+    max-height: fit-content;
+    
+}
+
+.par{
+    margin: 0;
+}
+
+.nav{
+    margin: 0;
+}
+
+>>>>>>> 504e52d3b100c327bb2ed20a022de46c564b49b9
