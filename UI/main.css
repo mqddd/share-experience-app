@@ -16,11 +16,11 @@ body{
     padding: 50px;
 }
 
-.main-content-left p:last-of-type{
+.center-vertical{
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 50px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .main-content-right{
@@ -34,4 +34,10 @@ body{
     text-align: center;
     justify-content: space-between;
     
+}
+
+#copy-right{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
 }
