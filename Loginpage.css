@@ -1,28 +1,24 @@
 body{
-    background-color: #a000ff;
     margin: 0;
     padding: 40px;
 }
 
 
-.main-content{
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    height: 91vh;
+.main-content{  
+    height: 100vh;
     align-content: center;
+    margin: 0 auto;
 }
 
-
-.white-text {
-    color: aliceblue;
-    width: 80%;
+.block-item{
+    display: block;
 }
 
-.button{
+#login-btn{
     color: aliceblue;
     background-color: #af00ff;
     border: 1px solid aliceblue;
-    Border-radius:10px;
+    border-radius:10px;
     margin: 5px;
     align-content: center;
     width: 80%;
