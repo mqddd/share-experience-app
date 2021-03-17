@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-content{  
+    margin: 0 auto;
+    width: 30%;
+}
+
+.block-item{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+#login-btn{
+    color: aliceblue;
+    background-color: #af00ff;
+    border: 1px solid aliceblue;
+    border-radius:50px;
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.input{
+    color: #af00ff;
+    background-color: aliceblue;
+    border: 1px solid #af00ff;
+    Border-radius:5px;
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 20px;
+}
