@@ -1,3 +1,4 @@
+<<<<<<< HEAD:UI/main.css
 body{
     margin: 0; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -126,3 +127,52 @@ body{
     margin: 0 auto;
     width: 550px;
 }
+=======
+body{
+    background-color: #a000ff;
+    margin: 0;
+    padding: 40px;
+}
+
+
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    height: 91vh;
+    align-content: center;
+}
+
+
+.white-text {
+    color: aliceblue;
+    width: 80%;
+}
+
+.button{
+    color: aliceblue;
+    background-color: #af00ff;
+    border: 1px solid aliceblue;
+    Border-radius:10px;
+    margin: 5px;
+    align-content: center;
+    width: 80%;
+    height: 20%;
+
+}
+.input{
+    color: #af00ff;
+    background-color: aliceblue;
+    border: 1px solid #af00ff;
+    Border-radius:10px;
+    margin: 5px;
+    align-content: center;
+    width: 80%;
+    height: 20%;
+
+}
+
+
+
+
+
+>>>>>>> 70406ac36393ee1160e6876d0e840980c916d038:Loginpage.css
