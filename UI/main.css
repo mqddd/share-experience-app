@@ -3,6 +3,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 .main-content{
     background-color: #D32F2F;
     display: grid;
@@ -77,6 +78,16 @@ body{
     padding:15px 20px 15px 20px;
     text-decoration: none;
     color: #F44336;
+}
+.input{
+    color: #af00ff;
+    background-color: aliceblue;
+    border: 1px solid #af00ff;
+    Border-radius:10px;
+    margin: 5px;
+    align-content: center;
+    width: 80%;
+    height: 20%;
 }
 
 .nav-list-item a:hover{
