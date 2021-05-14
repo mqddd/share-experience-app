@@ -1,0 +1,49 @@
+.experience-card {
+    border-radius: 6px;
+    margin: 12px
+}
+
+.experience-card:hover {
+    background-color: #f3f3f3;
+}
+
+.experience-card-header {
+    overflow: auto;
+}
+
+.experience-card-header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.experience-card-avatar {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    border-radius: 50%;
+}
+
+.experience-card-header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.experience-card-username {
+
+}
+
+.experience-card-time {
+    margin-top: 0;
+}
+
+.experience-card-content {
+
+}
+
+.experience-card-summary {
+    text-align: start;
+    padding: 12px;
+}

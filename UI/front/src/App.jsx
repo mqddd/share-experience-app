@@ -1,6 +1,8 @@
 import React from 'react';
-
+import { BrowserRouter, Route } from 'react-router-dom';
+ 
 import AuthPage from './components/auth/index';
+import MainPage from './components/app/index';
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,9 +15,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <AuthPage />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Route path="/" exact component={AuthPage}/>
+          <Route path="/" component={MainPage}/>
+        </div>
+      </BrowserRouter>
     );
   }
 

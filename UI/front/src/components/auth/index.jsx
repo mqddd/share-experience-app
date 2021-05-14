@@ -3,7 +3,7 @@ import React from 'react';
 import { Login } from './login';
 import { Register } from './register';
 
-import './page-style.css';
+import './auth-page.css';
 
 
 class AuthPage extends React.Component {
