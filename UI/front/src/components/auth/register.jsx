@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 import './form-style.css';
 
@@ -24,9 +26,9 @@ export class Register extends React.Component {
                         <div className="form-group">
                             <input type="password" name="password" placeholder="password"/>
                         </div>
-                        <button class="btn" type="submit"> 
-                            SIGN UP
-                        </button>
+                        <Link class="btn" to="/index/profile">  
+                            SIGN UP   
+                        </Link>
                     </div>    
             </div>
         );

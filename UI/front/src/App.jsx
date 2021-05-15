@@ -18,7 +18,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="App">
           <Route path="/" exact component={AuthPage}/>
-          <Route path="/" component={MainPage}/>
+          <Route path="/index" component={MainPage}/>
         </div>
       </BrowserRouter>
     );

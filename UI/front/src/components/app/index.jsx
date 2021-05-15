@@ -1,9 +1,10 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 import Profile from './profile';
 import Add from './add';
 import Experiences from './experiences';
+import ExperiencDetail from './experience-detail';
 import './index.css';
 
 class MainPage extends React.Component {
@@ -16,9 +17,10 @@ class MainPage extends React.Component {
             <div className="root-container">
                 <SideBar />
                 <div className="main-page-right-side">
-                    <Route path="/profile" exact component={Profile}/>
-                    <Route path="/experiences" exact component={Experiences}/>
-                    <Route path="/add" exact component={Add}/>
+                    <Route path="/index/profile" exact component={Profile}/>
+                    <Route path="/index/experiences" exact component={Experiences}/>
+                    <Route path="/index/add" exact component={Add}/>
+                    <Route path="/index/experience-detail" exact component={ExperiencDetail}/>
                 </div>
             </div>
         );
@@ -36,18 +38,18 @@ class SideBar extends React.Component {
                 <h2 className="main-page-loggo">
                     Loggo
                 </h2>
-                <button className="navigation-btn">
+                <Link to="/index/profile" className="navigation-btn">
                     Profile
-                </button>
-                <button className="navigation-btn">
+                </Link>
+                <Link to="/index/experiences" className="navigation-btn">
                     Experiences
-                </button>
-                <button className="navigation-btn">
-                    Add                    
-                </button>
-                <button className="navigation-btn logout">
+                </Link>
+                <Link to="/index/add" className="navigation-btn">
+                    Add
+                </Link>
+                <Link to="/" className="navigation-btn logout">
                     Logout
-                </button>
+                </Link>
             </div>
         );
     }

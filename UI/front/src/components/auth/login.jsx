@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 import './form-style.css';
 
@@ -26,9 +28,9 @@ export class Login extends React.Component {
                                 <h6>Forgot password?</h6>
                             </a>
                         </div>
-                        <button class="btn" type="submit"> 
-                            SIGN IN
-                        </button>
+                        <Link class="btn" to="/index/profile">  
+                            SIGN IN   
+                        </Link>
                     </div>    
             </div>
         );

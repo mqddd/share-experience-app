@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .side-bar h2 {
@@ -19,6 +20,7 @@
 }
 
 .navigation-btn {
+    text-decoration: none;
     width: 100%;
     font-size: 1em;
     border: none;
@@ -32,10 +34,10 @@
     opacity: 0.8;
 }
 
-.navigation-btn:focus {
+/* .navigation-btn:active {
     opacity: 1;
     border-left: 6px solid #F96A93;
-}
+} */
 
 .navigation-btn.logout {
     margin-top: auto;
@@ -43,4 +45,8 @@
 
 .main-page-right-side {
     overflow: auto;
+}
+
+.index-react-link {
+    text-decoration: none;
 }

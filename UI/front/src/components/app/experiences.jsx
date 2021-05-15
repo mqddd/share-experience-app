@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ExperiencDetail from './experience-detail';
 import ExperienceCard from './experience-card';
 import './experiences.css';
 
